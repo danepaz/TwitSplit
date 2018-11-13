@@ -6,15 +6,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class TweetsAdapter extends ArrayAdapter<String> {
 
     public TweetsAdapter(Context context, List<String> tweets) {
         super(context, 0, tweets);
-
     }
 
     @Override
